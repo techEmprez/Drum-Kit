@@ -1,0 +1,42 @@
+body {
+    background: url(../lappy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.keys {
+   display: flex;
+   flex: 2;
+   justify-content: center;
+   align-items: center;
+}
+
+.key {
+    border: 2rem solid black;
+    border-radius: .2rem;
+    text-shadow: 0 0 .2rem gray;
+    margin: 1rem;
+    padding: 1rem, .4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 7rem;
+    transition: all .10s ease-in-out;
+}
+
+kbd {
+    display: block;
+    font-size: 8rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+  }
+
+  .playing {
+    transform: scale(2);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
